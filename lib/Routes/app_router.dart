@@ -2,7 +2,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:study/Routes/routes_name.dart';
 import 'app_router.gr.dart';
-
+// dart run build_runner build --delete-conflicting-outputs
 @AutoRouterConfig()
 class AppRouter extends $AppRouter {
   @override
